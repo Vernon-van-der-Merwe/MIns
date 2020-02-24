@@ -9,8 +9,9 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="Assets/style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="Assets/style/style.css">
+
 
   <title>MININS</title>
 </head>
@@ -21,7 +22,7 @@
   <section id="header">
 
     <nav>
-      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top pb-2 nav-old">
         <a class="navbar-brand" href="#">MININS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,10 +30,10 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ml-auto">
-            <a class="nav-item nav-link active pr-5" href="#">Why us? <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active pr-5" href="#why-us">Why us? <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link active pr-5" href="#">Who are we?</a>
             <a class="nav-item nav-link active pr-5" href="#">Contact</a>
-            <button type="button" class="btn">Login</button>
+            <button type="button" class="btn-old">Login</button>
           </div>
         </div>
       </nav>
@@ -49,7 +50,7 @@
               We make insurance easy for your clients.
             </p>
 
-            <button type="button" class="btn">Contact us</button>
+            <button type="button" class="btn-old">Contact us</button>
 
           </div>
         </div>
@@ -126,18 +127,50 @@
   </section>
 
   <section id="call-to-action">
-    <div class="container">
-      <div class="row">
-        <div class="col">
 
+
+    <div class="container info">
+      <div class="row">
+        <div class="col img">
+          <img src="Assets/img/stop.jpg" alt="">
         </div>
-        <div class="col">
-          
+        <div class="col text">
+          <h3>No more wrong decisions.</h3>
+          <p>Never make a mistake by selceting the wrong insurance provider. We only offer the best and most trusted
+            ISP's to our clients liking.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container info">
+      <div class="row">
+        <div class="col img">
+          <img src="Assets/img/compare.jpg" alt="">
+        </div>
+        <div class="col text">
+          <h3>View and compare, in seconds.</h3>
+          <p>Manage all your insurance related information in one place. Not happy? switch and apply to alternate
+            insurance companys within a few clicks.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container info">
+      <div class="row">
+        <div class="col img">
+          <img src="Assets/img/manage.jpg" alt="">
+        </div>
+        <div class="col text">
+          <h3>One place to manage it all.</h3>
+          <p>Never make a mistake by selceting the wrong insurance provider. We only offer the best and most trusted
+            ISP's for our clients liking.</p>
         </div>
       </div>
     </div>
 
+
+
   </section>
+
+
 
 
   <!-- Optional JavaScript -->
@@ -151,6 +184,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+  <script src="Assets/script/navbar-script.js"></script>
 </body>
 
 </html>
