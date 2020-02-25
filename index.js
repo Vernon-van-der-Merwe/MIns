@@ -22,6 +22,11 @@ app.get('/login', (req,res) => {
     res.render('login');
 })
 
+app.get('/login', (req,res) => {
+    res.render('login');
+})
+
+
 app.get('/landing', (req,res) => {
     res.render('dash-landing');
 })
